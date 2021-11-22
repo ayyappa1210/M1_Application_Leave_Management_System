@@ -14,6 +14,7 @@ Leave Management System with Source Code is a project that manage your employee 
 ![structural Diagram](https://www.freeprojectz.com/sites/default/files/xLeave,P20Management,P20System,P20First,P20Level.jpeg.pagespeed.ic.lmwALRskHL.jpg)
 
 ## Behavioural Diagram
+![Behavioural Diagram](https://app.creately.com/diagram/vector/han9q0mg)
 
 ## Defining Our System
 ### **IDE:**
