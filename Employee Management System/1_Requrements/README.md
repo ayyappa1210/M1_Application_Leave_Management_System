@@ -13,6 +13,14 @@ Leave Management System with Source Code is a project that manage your employee 
 ### **IDE:**
 - Visual Studio code
 ## SWOT Analysis
+## Strength
+
+| strengths | weaknesses |
+| --------- | ---------- |
+| Eliminates paperwork| Security issues |
+| Removes manual interventions | Expensive |
+| Improves communication | Stsffing |
+| Reflects organization's values | Scalability |
 ## 4W'S and 1H
 ## Who
 - Employee gives us information about the user, his name and other details to identify him.
@@ -26,10 +34,15 @@ Leave Management System with Source Code is a project that manage your employee 
 ## How
 - Employess add details like Name, Start Date, End Date , Salary, etc.
 # Detail Requirements 
-## High Level Requirements
-|Screen Name| |Description|
-|---| |---|
-|Login| |Login to the system|
+## High Level Requirements And Low Level Requiremens
+
+| High Level Requirements | Low Level Requiremens |
+| ----------------------- | --------------------- |
+| Procesing employee records and generate report of all employee | Admin's Login system and manage all functionalities of Leave Management System |
+| Processing attendance records and generate report of all employee | Employee can add,delete, view records of Employee, Leave, Leave Type, Salary | 
+| Processing Leave records and generate report of all leave | Admin can manage all the details of Leave status |
+| Processing Leave type records and generate report of all leave type | Admin can tracks detailed information of Leave status |
+
 
 
 
