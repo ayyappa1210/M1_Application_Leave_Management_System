@@ -11,8 +11,10 @@ Leave Management System with Source Code is a project that manage your employee 
 - Modify Current Leave Application
 
 ## Structural Diagram
+![structural Diagram](https://www.freeprojectz.com/sites/default/files/xLeave,P20Management,P20System,P20First,P20Level.jpeg.pagespeed.ic.lmwALRskHL.jpg)
 
 ## Behavioural Diagram
+
 ## Defining Our System
 ### **IDE:**
 - Visual Studio code
