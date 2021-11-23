@@ -5,11 +5,11 @@ Leave Management System with Source Code is a project that manage your employee 
 This Leave Management system project is designed in ‘C’ language. This system is based on a concept to store and generate all the records of the employees and their leaves. Also, this program is considered as a simple database of employees in an office, an organization where the user can store employees’ records and their leave records easily as it is not time-consuming. Moreover, the user can add employee’s data, view a list of employees, modify and remove employee details. Also, this project is easy to operate and understood by the users.
 
 ## Features 
-- Can Add new Employee
-- Modify Current Data
-- View All Employee List
-- Apply New Leave Application
-- Modify Current Leave Application
+-   Can Add new Employee
+-   Modify Current Data
+-   View All Employee List
+-   Apply New Leave Application
+-   Modify Current Leave Application
 ## Defining Our System
 ### **IDE:**
 - Visual Studio code
