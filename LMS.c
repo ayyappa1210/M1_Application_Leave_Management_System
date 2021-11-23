@@ -53,7 +53,6 @@ int main()
         printf("1. Add Record");
         gotoxy(30,12);
         printf("2. List Record");
-        printf("\n");
         gotoxy(30,14);
         printf("3. Modify Record");
         gotoxy(30,16);
@@ -65,7 +64,7 @@ int main()
         gotoxy(30,22);
         printf("7. Exit");
         gotoxy(30,24);
-        printf("8. 7Your Choice: ");
+        printf("8. Your Choice: ");
         fflush(stdin);
         choice=getchar();
         switch(choice)
