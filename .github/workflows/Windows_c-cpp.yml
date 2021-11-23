@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: gcc hello.c -o hello.exe
+      run: gcc LMS.c -o LMS.exe
     - name: Run
-      run: .\hello.exe
+      run: .\LMS.exe
