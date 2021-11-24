@@ -1,10 +1,10 @@
 SRC = unity.c test_LMS.c LMSS.c 
 INC = LMS.h
-all.out : $(SRC) 
+all.exe : $(SRC) 
 	gcc $^ -o $@
 
 run : $@
-	./all.out
+	./all.exe
 
 clean : 
-	rm all.out
+	rm all.exe
