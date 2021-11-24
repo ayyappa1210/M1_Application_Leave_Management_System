@@ -1,0 +1,107 @@
+Employee Management System/3_Implenetation/project_main.c:71:17: warning: %d in format string (no. 1) requires 'int *' but the argument type is 'signed int'. [invalidScanfArgType_int]
+                scanf("%d",e.age);
+                ^
+Employee Management System/3_Implenetation/project_main.c:73:17: warning: %f in format string (no. 1) requires 'float *' but the argument type is 'float'. [invalidScanfArgType_float]
+                scanf("%f",e.bs);
+                ^
+Employee Management System/3_Implenetation/project_main.c:147:17: warning: %d in format string (no. 1) requires 'int *' but the argument type is 'signed int'. [invalidScanfArgType_int]
+                scanf("%d",e.age);
+                ^
+Employee Management System/3_Implenetation/project_main.c:149:17: warning: %f in format string (no. 1) requires 'float *' but the argument type is 'float'. [invalidScanfArgType_float]
+                scanf("%f",e.bs);
+                ^
+Employee Management System/3_Implenetation/project_main.c:58:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+Employee Management System/3_Implenetation/project_main.c:76:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+Employee Management System/3_Implenetation/project_main.c:108:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+Employee Management System/3_Implenetation/project_main.c:134:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+Employee Management System/3_Implenetation/project_main.c:152:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+Employee Management System/3_Implenetation/project_main.c:69:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",e.name);
+                ^
+Employee Management System/3_Implenetation/project_main.c:94:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",empname);
+                ^
+Employee Management System/3_Implenetation/project_main.c:101:25: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                        scanf("%s%d%f",e.name,&e.age,&e.bs);
+                        ^
+Employee Management System/3_Implenetation/project_main.c:118:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",empname);
+                ^
+Employee Management System/3_Implenetation/project_main.c:145:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",e.name);
+                ^
+Employee Management System/3_Implenetation/project_main.c:5:18: style: The scope of the variable 'choice' can be reduced. [variableScope]
+    char another,choice;
+                 ^
+Employee Management System/3_Implenetation/test/LMSS.c:5:10: style: Variable 'X' is assigned a value that is never used. [unreadVariable]
+    int X=x;
+         ^
+Employee Management System/3_Implenetation/test/LMSS.c:6:10: style: Variable 'Y' is assigned a value that is never used. [unreadVariable]
+    int Y=y;
+         ^
+Employee Management System/3_Implenetation/unity/unity_internals.h:1055:0: error: The code contains unhandled character(s) (character code=194). Neither unicode nor extended ascii is supported. [preprocessorErrorDirective]
+© 2021 GitHub, Inc.
+^
+LMS.c:80:17: warning: %d in format string (no. 1) requires 'int *' but the argument type is 'signed int'. [invalidScanfArgType_int]
+                scanf("%d",e.age);
+                ^
+LMS.c:82:17: warning: %f in format string (no. 1) requires 'float *' but the argument type is 'float'. [invalidScanfArgType_float]
+                scanf("%f",e.bs);
+                ^
+LMS.c:156:17: warning: %d in format string (no. 1) requires 'int *' but the argument type is 'signed int'. [invalidScanfArgType_int]
+                scanf("%d",e.age);
+                ^
+LMS.c:158:17: warning: %f in format string (no. 1) requires 'float *' but the argument type is 'float'. [invalidScanfArgType_float]
+                scanf("%f",e.bs);
+                ^
+LMS.c:67:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+LMS.c:85:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+LMS.c:117:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+LMS.c:143:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+LMS.c:161:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+LMS.c:78:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",e.name);
+                ^
+LMS.c:103:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",empname);
+                ^
+LMS.c:110:25: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                        scanf("%s%d%f",e.name,&e.age,&e.bs);
+                        ^
+LMS.c:127:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",empname);
+                ^
+LMS.c:154:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",e.name);
+                ^
+LMS.c:14:18: style: The scope of the variable 'choice' can be reduced. [variableScope]
+    char another,choice;
+                 ^
+Employee Management System/3_Implenetation/test/test_LMS.c:4:0: style: The function 'setUp' is never used. [unusedFunction]
+
+^
+Employee Management System/3_Implenetation/test/test_LMS.c:8:0: style: The function 'tearDown' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
