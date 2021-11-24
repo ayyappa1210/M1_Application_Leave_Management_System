@@ -1,3 +1,99 @@
+3_Implenetation/project_main.c:71:17: warning: %d in format string (no. 1) requires 'int *' but the argument type is 'signed int'. [invalidScanfArgType_int]
+                scanf("%d",e.age);
+                ^
+3_Implenetation/project_main.c:73:17: warning: %f in format string (no. 1) requires 'float *' but the argument type is 'float'. [invalidScanfArgType_float]
+                scanf("%f",e.bs);
+                ^
+3_Implenetation/project_main.c:147:17: warning: %d in format string (no. 1) requires 'int *' but the argument type is 'signed int'. [invalidScanfArgType_int]
+                scanf("%d",e.age);
+                ^
+3_Implenetation/project_main.c:149:17: warning: %f in format string (no. 1) requires 'float *' but the argument type is 'float'. [invalidScanfArgType_float]
+                scanf("%f",e.bs);
+                ^
+3_Implenetation/project_main.c:58:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implenetation/project_main.c:76:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+3_Implenetation/project_main.c:108:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+3_Implenetation/project_main.c:134:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+3_Implenetation/project_main.c:152:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+3_Implenetation/project_main.c:69:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",e.name);
+                ^
+3_Implenetation/project_main.c:94:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",empname);
+                ^
+3_Implenetation/project_main.c:101:25: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                        scanf("%s%d%f",e.name,&e.age,&e.bs);
+                        ^
+3_Implenetation/project_main.c:118:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",empname);
+                ^
+3_Implenetation/project_main.c:145:17: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+                scanf("%s",e.name);
+                ^
+3_Implenetation/project_main.c:5:18: style: The scope of the variable 'choice' can be reduced. [variableScope]
+    char another,choice;
+                 ^
+3_Implenetation/test/LMSS.c:5:10: style: Variable 'X' is assigned a value that is never used. [unreadVariable]
+    int X=x;
+         ^
+3_Implenetation/test/LMSS.c:6:10: style: Variable 'Y' is assigned a value that is never used. [unreadVariable]
+    int Y=y;
+         ^
+3_Implenetation/unity/unity_internals.h:1055:0: error: The code contains unhandled character(s) (character code=194). Neither unicode nor extended ascii is supported. [preprocessorErrorDirective]
+© 2021 GitHub, Inc.
+^
+5_Report/hello.c:231:5: warning: %u in format string (no. 1) requires 'unsigned int *' but the argument type is 'signed int *'. [invalidScanfArgType_int]
+    scanf("%u",&employeeId);
+    ^
+5_Report/hello.c:242:9: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+        printf("\n\t\t\tEmployee id = %d\n",addEmployeeInfoInDataBase.employee_id);
+        ^
+5_Report/hello.c:280:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    printf("\n\t\t\tEmployee Count = %d\n\n",countEmployee);
+    ^
+5_Report/hello.c:151:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+5_Report/hello.c:156:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+5_Report/hello.c:168:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+5_Report/hello.c:180:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+5_Report/hello.c:190:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+5_Report/hello.c:230:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+5_Report/hello.c:256:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+5_Report/hello.c:299:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+5_Report/hello.c:368:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+5_Report/hello.c:371:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+5_Report/hello.c:379:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
 LMS.c:80:17: warning: %d in format string (no. 1) requires 'int *' but the argument type is 'signed int'. [invalidScanfArgType_int]
                 scanf("%d",e.age);
                 ^
@@ -43,5 +139,11 @@ LMS.c:154:17: warning: scanf() without field width limits can crash with huge in
 LMS.c:14:18: style: The scope of the variable 'choice' can be reduced. [variableScope]
     char another,choice;
                  ^
-nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+3_Implenetation/test/test_LMS.c:4:0: style: The function 'setUp' is never used. [unusedFunction]
+
+^
+3_Implenetation/test/test_LMS.c:8:0: style: The function 'tearDown' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
 
