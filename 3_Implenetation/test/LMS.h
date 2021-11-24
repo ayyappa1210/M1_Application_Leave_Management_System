@@ -13,7 +13,6 @@
 
 #include "stdio.h"
 #include "stdlib.h"
-#include "windows.h"
 #include "string.h"
 #include "assert.h"
 void gotoxy(int x,int y);
