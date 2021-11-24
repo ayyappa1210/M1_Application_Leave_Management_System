@@ -2,15 +2,15 @@
 SRC = LMS.c
 TEST_SRC = unity\src\test_LMS.c
 
-all: $(SRC) $(TEST_SRC)
-	gcc $^ -o a.out
+all-out: $(SRC) $(TEST_SRC)
+	gcc $^ -o $@
 		
-run:a
-	./a.out
+run: $@
+	./all.out
 	
 coverage:$(SRC) $(TEST_SRC)
-	gcc -fprofile-arcs -ftest-coverage $^ -o a.out
-	./a.out
+	gcc -fprofile-arcs -ftest-coverage $^ -o all.out
+	./all.out
 	gcov -a $(SRC)
 	
 	
