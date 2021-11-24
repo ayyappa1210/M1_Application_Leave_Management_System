@@ -18,6 +18,6 @@ analyze:all $(SRC)
 	cppcheck --enable=all $(SRC)
 	valgrind ./all.out
 clean:
-	rm -rf a
+	rm -rf *.out
 	rm -rf *.exe
 	rm -rf *.o
