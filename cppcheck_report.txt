@@ -49,6 +49,42 @@
 3_Implenetation/test/LMSS.c:6:10: style: Variable 'Y' is assigned a value that is never used. [unreadVariable]
     int Y=y;
          ^
+3_Implenetation/test/test_LMS.c:16:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
+    TEST_ASSERT_EQUAL(30,x);
+    ^
+3_Implenetation/test/test_LMS.c:17:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
+    TEST_ASSERT_EQUAL(12,y);
+    ^
+3_Implenetation/test/test_LMS.c:19:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
+    TEST_ASSERT_EQUAL(10,x);
+    ^
+3_Implenetation/test/test_LMS.c:20:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
+    TEST_ASSERT_EQUAL(14,y);
+    ^
+3_Implenetation/test/test_LMS.c:22:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
+    TEST_ASSERT_EQUAL(25,x);
+    ^
+3_Implenetation/test/test_LMS.c:23:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
+    TEST_ASSERT_EQUAL(11,y);
+    ^
+3_Implenetation/test/test_LMS.c:16:5: style: The comparison '30 == x' is always true. [knownConditionTrueFalse]
+    TEST_ASSERT_EQUAL(30,x);
+    ^
+3_Implenetation/test/test_LMS.c:15:11: note: 'x' is assigned value '30' here.
+    int x=30,y=12;
+          ^
+3_Implenetation/test/test_LMS.c:16:5: note: The comparison '30 == x' is always true.
+    TEST_ASSERT_EQUAL(30,x);
+    ^
+3_Implenetation/test/test_LMS.c:17:5: style: The comparison '12 == y' is always true. [knownConditionTrueFalse]
+    TEST_ASSERT_EQUAL(12,y);
+    ^
+3_Implenetation/test/test_LMS.c:15:16: note: 'y' is assigned value '12' here.
+    int x=30,y=12;
+               ^
+3_Implenetation/test/test_LMS.c:17:5: note: The comparison '12 == y' is always true.
+    TEST_ASSERT_EQUAL(12,y);
+    ^
 3_Implenetation/unity/unity_internals.h:1055:0: error: The code contains unhandled character(s) (character code=194). Neither unicode nor extended ascii is supported. [preprocessorErrorDirective]
 © 2021 GitHub, Inc.
 ^
