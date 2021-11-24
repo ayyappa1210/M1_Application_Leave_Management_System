@@ -49,60 +49,120 @@
 3_Implenetation/test/LMSS.c:6:10: style: Variable 'Y' is assigned a value that is never used. [unreadVariable]
     int Y=y;
          ^
-3_Implenetation/test/test_LMS.c:16:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
-    TEST_ASSERT_EQUAL(30,x);
-    ^
-3_Implenetation/test/test_LMS.c:17:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
-    TEST_ASSERT_EQUAL(12,y);
-    ^
-3_Implenetation/test/test_LMS.c:19:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
-    TEST_ASSERT_EQUAL(10,x);
-    ^
-3_Implenetation/test/test_LMS.c:20:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
-    TEST_ASSERT_EQUAL(14,y);
-    ^
-3_Implenetation/test/test_LMS.c:22:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
-    TEST_ASSERT_EQUAL(25,x);
-    ^
-3_Implenetation/test/test_LMS.c:23:5: warning: Suspicious usage of 'sizeof' with a numeric constant as parameter. [sizeofwithnumericparameter]
-    TEST_ASSERT_EQUAL(11,y);
-    ^
-3_Implenetation/test/test_LMS.c:16:5: style: The comparison '30 == x' is always true. [knownConditionTrueFalse]
-    TEST_ASSERT_EQUAL(30,x);
-    ^
-3_Implenetation/test/test_LMS.c:15:11: note: 'x' is assigned value '30' here.
-    int x=30,y=12;
-          ^
-3_Implenetation/test/test_LMS.c:16:5: note: The comparison '30 == x' is always true.
-    TEST_ASSERT_EQUAL(30,x);
-    ^
-3_Implenetation/test/test_LMS.c:17:5: style: The comparison '12 == y' is always true. [knownConditionTrueFalse]
-    TEST_ASSERT_EQUAL(12,y);
-    ^
-3_Implenetation/test/test_LMS.c:15:16: note: 'y' is assigned value '12' here.
-    int x=30,y=12;
-               ^
-3_Implenetation/test/test_LMS.c:17:5: note: The comparison '12 == y' is always true.
-    TEST_ASSERT_EQUAL(12,y);
-    ^
-3_Implenetation/test/unity.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+3_Implenetation/test/test_LMS.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+3_Implenetation/test/test_LMS.c:30:0: error: failed to expand 'RUN_TEST', Wrong number of parameters for macro 'RUN_TEST'. [preprocessorErrorDirective]
+    RUN_TEST(test_gotoxy);
+^
+3_Implenetation/test/test_LMS.c:30:0: information: Skipping configuration 'RUN_TEST' since the value of 'RUN_TEST' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    RUN_TEST(test_gotoxy);
+^
+3_Implenetation/test/unity_internals.h:485:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStartTime;
+^
+3_Implenetation/test/unity_internals.h:486:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStopTime;
+^
+3_Implenetation/test/unity_internals.h:485:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStartTime;
+^
+3_Implenetation/test/unity_internals.h:486:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStopTime;
+^
+3_Implenetation/test/unity_internals.h:485:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME;_WIN32' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStartTime;
+^
+3_Implenetation/test/unity_internals.h:486:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME;_WIN32' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStopTime;
+^
+3_Implenetation/test/unity_internals.h:485:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME;__APPLE__;__unix__' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStartTime;
+^
+3_Implenetation/test/unity_internals.h:486:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME;__APPLE__;__unix__' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_TIME_TYPE CurrentTestStopTime;
+^
+3_Implenetation/test/unity.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 42 configurations. Use --force to check all configurations. [toomanyconfigs]
 
 ^
 3_Implenetation/test/unity.c:277:9: style: The scope of the variable 'nibble' can be reduced. [variableScope]
     int nibble;
         ^
+3_Implenetation/test/unity.c:1350:18: style: The scope of the variable 'i' can be reduced. [variableScope]
+    UNITY_UINT32 i;
+                 ^
+3_Implenetation/test/unity.c:1390:18: style: The scope of the variable 'i' can be reduced. [variableScope]
+    UNITY_UINT32 i;
+                 ^
+3_Implenetation/test/unity.c:1514:18: style: The scope of the variable 'bytes' can be reduced. [variableScope]
+    UNITY_UINT32 bytes;
+                 ^
+3_Implenetation/test/unity.c:1758:28: style:inconclusive: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
+                           ^
+3_Implenetation/test/unity_internals.h:635:43: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+UNITY_NORETURN void UnityFail(const char* message, const UNITY_LINE_TYPE line);
+                                          ^
+3_Implenetation/test/unity.c:1758:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
+                           ^
+3_Implenetation/test/unity.c:1795:30: style:inconclusive: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
+                             ^
+3_Implenetation/test/unity_internals.h:636:45: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+UNITY_NORETURN void UnityIgnore(const char* message, const UNITY_LINE_TYPE line);
+                                            ^
+3_Implenetation/test/unity.c:1795:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
+                             ^
+3_Implenetation/test/unity.c:1811:31: style:inconclusive: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityMessage(const char* msg, const UNITY_LINE_TYPE line)
+                              ^
+3_Implenetation/test/unity_internals.h:642:31: note: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityMessage(const char* message, const UNITY_LINE_TYPE line);
+                              ^
+3_Implenetation/test/unity.c:1811:31: note: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityMessage(const char* msg, const UNITY_LINE_TYPE line)
+                              ^
 3_Implenetation/test/unity.c:1431:20: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
     UNITY_UINT32 i = 0;
                    ^
-3_Implenetation/test/unity.c:1731:16: warning: Either the condition 'pch!=NULL' is redundant or there is pointer arithmetic with NULL pointer. [nullPointerArithmeticRedundantCheck]
-            pch++;
-               ^
-3_Implenetation/test/unity.c:1642:25: note: Assuming that condition 'pch!=NULL' is not redundant
-                if (pch != NULL)
-                        ^
-3_Implenetation/test/unity.c:1731:16: note: Null pointer addition
-            pch++;
-               ^
+3_Implenetation/test/unity.c:1833:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_START' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_EXEC_TIME_START();
+^
+3_Implenetation/test/unity.c:1843:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_STOP' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_EXEC_TIME_STOP();
+^
+3_Implenetation/test/unity.c:559:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_PRINT_EXEC_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_PRINT_EXEC_TIME();
+^
+3_Implenetation/test/unity.c:1758:28: style:inconclusive: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
+                           ^
+3_Implenetation/test/unity_internals.h:638:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityFail(const char* message, const UNITY_LINE_TYPE line);
+                           ^
+3_Implenetation/test/unity.c:1758:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
+                           ^
+3_Implenetation/test/unity.c:1795:30: style:inconclusive: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
+                             ^
+3_Implenetation/test/unity_internals.h:639:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityIgnore(const char* message, const UNITY_LINE_TYPE line);
+                             ^
+3_Implenetation/test/unity.c:1795:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
+                             ^
+3_Implenetation/test/unity.c:1833:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_START' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_EXEC_TIME_START();
+^
+3_Implenetation/test/unity.c:1843:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_STOP' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_EXEC_TIME_STOP();
+^
+3_Implenetation/test/unity.c:559:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_PRINT_EXEC_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    UNITY_PRINT_EXEC_TIME();
+^
 3_Implenetation/unity/unity_internals.h:1055:0: error: The code contains unhandled character(s) (character code=194). Neither unicode nor extended ascii is supported. [preprocessorErrorDirective]
 © 2021 GitHub, Inc.
 ^
@@ -196,15 +256,6 @@ LMS.c:14:18: style: The scope of the variable 'choice' can be reduced. [variable
 3_Implenetation/test/unity.c:686:0: style: The function 'UnityAssertBits' is never used. [unusedFunction]
 
 ^
-3_Implenetation/test/unity.c:1112:0: style: The function 'UnityAssertDoubleSpecial' is never used. [unusedFunction]
-
-^
-3_Implenetation/test/unity.c:1094:0: style: The function 'UnityAssertDoublesWithin' is never used. [unusedFunction]
-
-^
-3_Implenetation/test/unity.c:1046:0: style: The function 'UnityAssertEqualDoubleArray' is never used. [unusedFunction]
-
-^
 3_Implenetation/test/unity.c:905:0: style: The function 'UnityAssertEqualFloatArray' is never used. [unusedFunction]
 
 ^
@@ -212,9 +263,6 @@ LMS.c:14:18: style: The scope of the variable 'choice' can be reduced. [variable
 
 ^
 3_Implenetation/test/unity.c:1503:0: style: The function 'UnityAssertEqualMemory' is never used. [unusedFunction]
-
-^
-3_Implenetation/test/unity.c:707:0: style: The function 'UnityAssertEqualNumber' is never used. [unusedFunction]
 
 ^
 3_Implenetation/test/unity.c:1345:0: style: The function 'UnityAssertEqualString' is never used. [unusedFunction]
@@ -241,18 +289,6 @@ LMS.c:14:18: style: The scope of the variable 'choice' can be reduced. [variable
 3_Implenetation/test/unity.c:1178:0: style: The function 'UnityAssertNumbersWithin' is never used. [unusedFunction]
 
 ^
-3_Implenetation/test/unity.c:1855:0: style: The function 'UnityBegin' is never used. [unusedFunction]
-
-^
-3_Implenetation/test/unity.c:1827:0: style: The function 'UnityDefaultTestRun' is never used. [unusedFunction]
-
-^
-3_Implenetation/test/unity.c:1619:0: style: The function 'UnityDoubleToPtr' is never used. [unusedFunction]
-
-^
-3_Implenetation/test/unity.c:1871:0: style: The function 'UnityEnd' is never used. [unusedFunction]
-
-^
 3_Implenetation/test/unity.c:1758:0: style: The function 'UnityFail' is never used. [unusedFunction]
 
 ^
@@ -266,9 +302,6 @@ LMS.c:14:18: style: The scope of the variable 'choice' can be reduced. [variable
 
 ^
 3_Implenetation/test/unity.c:1584:0: style: The function 'UnityNumToPtr' is never used. [unusedFunction]
-
-^
-3_Implenetation/test/unity.c:1736:0: style: The function 'UnityPrintF' is never used. [unusedFunction]
 
 ^
 3_Implenetation/test/unity.c:1849:0: style: The function 'UnitySetTestFile' is never used. [unusedFunction]
